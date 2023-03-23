@@ -7,11 +7,60 @@
 
   .btnstyle {
     border-color: aliceblue;
-   color: darkviolet;
+   color: rgb(170, 131, 104);
    background-color: aliceblue;
    
   }
   .container{
-    display:flex
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
     
   }
+  .containerparagraph{
+    flex-direction: column;
+    
+  }
+  .item3{
+    display:flex;
+    flex-direction:row;
+    align-items: baseline;
+    gap: 4rem;
+
+  }
+  body{
+    background-color: darkslategray;
+  }
+  .text{
+    font-family: Chalkduster, fantasy;
+    font-size: 40px;
+    color: beige;
+  }
+  .border{
+    font-size: 40px;
+    border: 2px solid rgb(217, 206, 206);
+    border-radius: 25px;
+    padding: 5px
+  }
+
+  .img1{
+    height: 30%;
+    width: 50%;
+  }
+  .cat{
+flex-direction: row;
+  }
+
+  .cloud{ 
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 250px;
+    height: 200px;
+ }
+ .containergrid{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+   }
