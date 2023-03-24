@@ -26,11 +26,24 @@ Refference:
 
 HTML-W3 Schools
 
-CSS-I have added different shaped button fron https://fontawesome.com/search?m=free&o=r  add cdn link of 4.7.0 
+CSS-I have added different shape of button fron https://fontawesome.com/search?m=free&o=r  add cdn link of 4.7.0 
+
+
+
+
+-Start by PUSH the code/ Fork from github to your local meachine 
+-Install VS code or anyother code editor 
+-Save in the folder 
+-Create your Feature Branch (git checkout -b feature/AmazingFeature)
+-Commit your Changes (git commit -m 'Add some AmazingFeature')
+-Push to the Branch (git push origin feature/AmazingFeature)
+-Open a Pull Request
+
+
+
 
 
  
-
 
 
 

@@ -16,6 +16,8 @@ function changeLang(){
     localStorage.setItem("lang",selectedLang)
     if(selectedLang === "English"){
         console.log(selectedLang);
+        btn1.value="Read";
+        btn2.value="About";
     }else{
         btn1.value="leer"
         btn2.value="acerca de"
