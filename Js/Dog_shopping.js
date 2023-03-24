@@ -63,3 +63,5 @@ musicbtn.addEventListener("click", e=>{
   }  
 
 });
+let b1 =document.getElementById("b1");
+ b1.style.backgroundColor=localStorage.getItem("color");

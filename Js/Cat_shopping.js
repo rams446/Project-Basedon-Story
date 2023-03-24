@@ -57,3 +57,5 @@ if(localStorage.getItem("lang")==="English"){
   para2.innerHTML="Nosotras podemos ir de compras ";
   textarea1.innerHTML="Por favor escriba un comentario sobre la historia  ";
 }
+let b1 =document.getElementById("b1");
+ b1.style.backgroundColor=localStorage.getItem("color");

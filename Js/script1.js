@@ -15,6 +15,19 @@ musicbtn.addEventListener("click", e=>{
 
 });
 
+let colors = ["black", "blue", "green"];
+let colorIndex = 0;
+function changeColor() {
+    let col = document.getElementById("body1");
+    if( colorIndex >= colors.length-1 ) {
+        colorIndex = 0;
+    }
+    col.style.backgroundColor = colors[colorIndex];
+    colorIndex++;
+    localStorage.setItem("color", colors[colorIndex])
+}
+
+
 catbtn.addEventListener("click", e=> {
     if(localStorage.getItem("lang")==="English"){
 catbtn.textContent="Thank you for selecting cat"

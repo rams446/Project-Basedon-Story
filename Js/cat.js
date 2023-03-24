@@ -5,6 +5,7 @@ let p1=document.getElementById("p1");
 let p2=document.getElementById("p2");
 let p3=document.getElementById("p3");
 
+
 musicbtn.addEventListener("click", e=>{
     if (audioFile.paused) {
         audioFile.play();
@@ -42,4 +43,7 @@ if(localStorage.getItem("lang")==="English"){
     p1.innerHTML="Hola a todos...... <br> Gracias por elegir a mi mascota <br> Hola Kitty";
     p2.innerHTML="hola como me llamo????????? ";
     p3.innerHTML="Ayúdame a elegir el nombre de MI mascota ";
+
 }
+ let b1 =document.getElementById("b1");
+ b1.style.backgroundColor=localStorage.getItem("color");
