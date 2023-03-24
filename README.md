@@ -1,4 +1,4 @@
-# "THE PET STORY"
+# "THE SHOP PET STORY"
 
 The project is basoed on the a kid interact with users to help her choosing pet, The inputs given by the user ,the story will move forward.
 
