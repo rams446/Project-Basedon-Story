@@ -53,3 +53,13 @@ if(localStorage.getItem("lang")==="English"){
   para2.innerHTML= "Nosotras podemos ir de compras";
   texarea.innerHTML = "Por favor escriba un comentario sobre la historia";
 }
+
+musicbtn.addEventListener("click", e=>{
+  if (audioFile.paused) {
+      audioFile.play();
+  }
+  else {
+      audioFile.pause();
+  }  
+
+});

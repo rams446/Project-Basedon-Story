@@ -39,3 +39,13 @@ previousbtn.addEventListener("click", e=>{
 
     window.location.href="index1.html"
 });
+
+musicbtn.addEventListener("click", e=>{
+    if (audioFile.paused) {
+        audioFile.play();
+    }
+    else {
+        audioFile.pause();
+    }  
+
+});
